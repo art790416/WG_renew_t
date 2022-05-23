@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.bg {
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sticky-container {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    z-index: 1;
+}
+
+.sticky-container .FV {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.sticky-container .FV.FV02 {
+    clip-path: inset(100% 0px 0px 0px);
+}
+
+.sticky-container.no-sticky {
+    position: relative;
+    overflow: visible;
+}
+
+.sticky-container.no-sticky .FV {
+    position: relative;
+}
+
+.sticky-container.no-sticky .FV.FV02 {
+    height: auto;
+}
+
+@media (max-width: 1000px) {
+    .sticky-container .FV.FV01 {
+        background-image: none;
+    }
+    .sticky-container .FV.FV02 {
+        background-image: none;
+    }
+}
+
+.FV01 {
+    background-image: url(../img_PC/WGrenew_PC_FV1.jpg);
+}
+
+.FV02 {
+    background-image: url(../img_PC/WGrenew_PC_FV2.jpg);
+}
+
+.down_place {
+    width: 30%;
+    position: absolute;
+}
+
+.down_place.dp01 {
+    bottom: 5%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.down_place.dp02 {
+    top: 8%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.down {
+    -webkit-animation: down 1s infinite;
+    animation: down 1s infinite;
+}
+
+.lang {
+    display: block;
+    width: 15%;
+    position: absolute;
+    top: 4.8%;
+    right: 0%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.FV a:hover img {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+}
+
+.FV .overlay-btn {
+    width: 12vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 997;
+    filter: drop-shadow(5px 5px 10px rgba(10, 75, 100, 0.4));
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1700px) {
+    .FV .overlay-btn {
+        width: 20vw;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1399px) {
+    .FV .overlay-btn {
+        width: 25vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    .FV .overlay-btn {
+        width: 30vw;
+    }
+}
+
+.sec_02 {
+    background-image: url(../img_PC/WGrenew_PC_02.jpg);
+}
+
+.sec_03 {
+    background-image: url(../img_PC/WGrenew_PC_03.jpg);
+}
+
+.sec_04 {
+    background-image: url(../img_PC/WGrenew_PC_04.jpg);
+}
+
+.sec_05 {
+    background-image: url(../img_PC/WGrenew_PC_05.jpg);
+}
+
+.sec_06 {
+    background-image: url(../img_PC/WGrenew_PC_06.jpg);
+}
+
+.sec_07 {
+    background-image: url(../img_PC/WGrenew_PC_07.jpg);
+}
+
+.sec_08 {
+    background-image: url(../img_PC/WGrenew_PC_08.jpg);
+}
+
+.sec_09 {
+    background-image: url(../img_PC/WGrenew_PC_09.jpg);
+}
+
+.sec_10 {
+    background-image: url(../img_PC/WGrenew_PC_10.jpg);
+}
+
+.sec_11 {
+    background-image: url(../img_PC/WGrenew_PC_11.jpg);
+}
+
+.sec_12 {
+    background-image: url(../img_PC/WGrenew_PC_12.jpg);
+}
+
+.sec_13 {
+    background-image: url(../img_PC/WGrenew_PC_13.jpg);
+}
+
+.sec_14 {
+    background-image: url(../img_PC/WGrenew_PC_14.jpg);
+}
+
+.sec_15 {
+    background-image: url(../img_PC/WGrenew_PC_15.jpg);
+}
+
+.sec_16 {
+    background-image: url(../img_PC/WGrenew_PC_16.jpg);
+}
+
+.sec_16 .videobox {
+    position: absolute;
+    top: 57.5%;
+    left: 50%;
+    width: 80%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding-bottom: 56.25%;
+}
+
+.sec_16 .videobox iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sec_17 {
+    background-image: url(../img_PC/WGrenew_PC_17.jpg);
+}
+
+.sec_18 {
+    background-image: url(../img_PC/WGrenew_PC_18.jpg);
+}
+
+.sec_19 {
+    background-image: url(../img_PC/WGrenew_PC_19.jpg);
+}
+
+.sec_19 .inner {
+    display: flex;
+}
+
+.sec_19 .inner .btn {
+    width: 50%;
+}
+
+.sec_20 {
+    background-image: url(../img_PC/WGrenew_PC_20.jpg);
+}
+
+.sec_19 a:hover img {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+}
+
+@keyframes down {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    50% {
+        -webkit-transform: translate(0, 12px);
+        transform: translate(0, 12px);
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+.btn01 {
+    display: block;
+    width: 85%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    position: relative;
+}
+
+.btn02 {
+    display: block;
+    width: 85%;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn03 {
+    display: block;
+    width: 85%;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
